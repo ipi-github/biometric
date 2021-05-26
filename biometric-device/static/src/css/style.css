@@ -1,0 +1,16 @@
+.custom_preloader {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 99999;
+  background-color: #ffffff;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image: url('/testing/static/src/img/giphy.gif');
+  background-size: 150px, 150px;
+  overflow: hidden;
+  display: none;
+  opacity: 0.5;
+}
